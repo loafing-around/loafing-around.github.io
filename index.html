@@ -78,24 +78,16 @@
         
             <div class="cover__menus">
                 
-                    <a href="/" class="cover-menu button">
-                        首页
+                    <a href="https://liuyifei.club/" target="_blank" rel="noopener" class="cover-menu button">
+                        主站
                     </a>
                 
-                    <a href="/tags/" class="cover-menu button">
-                        标签
+                    <a href="https://liuyifei.club/atom.xml" target="_blank" rel="noopener" class="cover-menu button">
+                        RSS
                     </a>
                 
-                    <a href="/archives/" class="cover-menu button">
-                        归档
-                    </a>
-                
-                    <a href="/friends/" class="cover-menu button">
-                        友链
-                    </a>
-                
-                    <a href="/page/" class="cover-menu button">
-                        Page
+                    <a href="https://travellings.now.sh" target="_blank" rel="noopener" class="cover-menu button">
+                        开往
                     </a>
                 
             </div>
@@ -125,24 +117,16 @@
                     </svg>
                 </a>
                 
-                    <a href="/" class="dropdown-menu button">
-                        首页
+                    <a href="https://liuyifei.club/" target="_blank" rel="noopener" class="dropdown-menu button">
+                        主站
                     </a>
                 
-                    <a href="/tags/" class="dropdown-menu button">
-                        标签
+                    <a href="https://liuyifei.club/atom.xml" target="_blank" rel="noopener" class="dropdown-menu button">
+                        RSS
                     </a>
                 
-                    <a href="/archives/" class="dropdown-menu button">
-                        归档
-                    </a>
-                
-                    <a href="/friends/" class="dropdown-menu button">
-                        友链
-                    </a>
-                
-                    <a href="/page/" class="dropdown-menu button">
-                        Page
+                    <a href="https://travellings.now.sh" target="_blank" rel="noopener" class="dropdown-menu button">
+                        开往
                     </a>
                 
             </div>
@@ -188,6 +172,8 @@
                 
                     
                 
+                    
+                
             
         
         
@@ -196,13 +182,19 @@
                 <div class='post-card content-card'>
                     <div class="post-card__header">
     
-         
+        
+    
+        <a href="https://liuyifei.club/home/">
+            <img alt="Cover Image" src="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/img/Aenami.webp">
+        </a>
+    
+ 
     
 </div>
 <div class="post-card__content">
-    <a href="/2020/07/08/hello-cards/" class="index-title">
+    <a href="https://liuyifei.club/home/" class="index-title">
         <h2 class="post-card__title">
-            hello-cards
+            There
         </h2>
     </a>
     <p class="post-card__descrption">
@@ -217,8 +209,8 @@
 </div>
 <div class="post-card__meta">
     
-        <a href="/archives/2020/07/" class="button" style="color: #808080;">
-    2020 七月 8日 , 星期三 , 20:30 晚上
+        <a href="/#/" class="button" style="color: #808080;">
+    2020-07-08
 </a>
     
     
@@ -226,10 +218,6 @@
  
     
 </div>
-
-    <div class="post-tags post-card__tags">
-    
-</div> 
 
 
                 </div>
@@ -243,16 +231,16 @@
     
 </div>
 <div class="post-card__content">
-    <a href="/2020/07/08/hello-world/" class="index-title">
+    <a href="/#/" class="index-title">
         <h2 class="post-card__title">
-            Hello World
+            is
         </h2>
     </a>
     <p class="post-card__descrption">
         
             <div class="md-content">
                 
-                    Welcome to Hexo! This is your very first post. Check 
+                    
                 
             </div>
            
@@ -260,8 +248,8 @@
 </div>
 <div class="post-card__meta">
     
-        <a href="/archives/2020/07/" class="button" style="color: #808080;">
-    2020 七月 8日 , 星期三 , 18:00 晚上
+        <a href="/#/" class="button" style="color: #808080;">
+    2020-07-08
 </a>
     
     
@@ -270,9 +258,45 @@
     
 </div>
 
-    <div class="post-tags post-card__tags">
+
+                </div>
+                
+            
+                
+                <div class='post-card content-card'>
+                    <div class="post-card__header">
     
-</div> 
+         
+    
+</div>
+<div class="post-card__content">
+    <a href="/#/" class="index-title">
+        <h2 class="post-card__title">
+            nothing
+        </h2>
+    </a>
+    <p class="post-card__descrption">
+        
+            <div class="md-content">
+                
+                    别点了，啥也没有……
+
+                
+            </div>
+           
+    </p>
+</div>
+<div class="post-card__meta">
+    
+        <a href="/archives/2020/07/" class="button" style="color: #808080;">
+    2020-07-08
+</a>
+    
+    
+        
+ 
+    
+</div>
 
 
                 </div>
@@ -317,40 +341,6 @@
 
   
 
-
-    <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-    
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.4.1/dist/jquery.fancybox.min.css">
-
-
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.4.1/dist/jquery.fancybox.min.js"></script>
-
-<script>
-    let lazyloadT = Boolean(''),
-        auto_fancybox = Boolean('true')
-    if (auto_fancybox) {
-        $(".post__content").find('img').each(function () {
-            var element = document.createElement("a");
-            $(element).attr("data-fancybox", "gallery");
-            $(element).attr("href", $(this).attr("src"));
-            if (lazyloadT) {
-                $(element).attr("href", $(this).attr("data-srcset"));
-            }
-            $(this).wrap(element);
-        });
-    } else {
-        $(".post__content").find("fancybox").find('img').each(function () {
-            var element = document.createElement("a");
-            $(element).attr("data-fancybox", "gallery");
-            $(element).attr("href", $(this).attr("src"));
-            if (lazyloadT) {
-                $(element).attr("href", $(this).attr("data-srcset"));
-            }
-            $(this).wrap(element);
-        });
-    }
-</script>
- 
  
 
  
@@ -359,28 +349,8 @@
 
 
 
-<script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
-<body>
-<script>
-    var appID="6zMBu0eTpU4cctLpbCMwJN88-MdYXbMMI";
-    var appKEY="9ky5bLwQquoNzTjSn5YEgcos";
-    var per=5;
-    var bgimg="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/img/loading.gif";
-    var atemoji_array={
-            jump: "https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-6/jump.gif",
-            eat:"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-6/eat.gif",
-            run:"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-6/run.gif",
-            lalala:"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-6/lalala.gif",
-            sexy:"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-6/sexy_rabbit.gif",
-            wawawa:"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-6/wawawa.gif",
-            wolf:"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-6/wolf.gif"
-      }
-    </script>
-<div id="artitalk_main"></div>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/artitalk"></script>
-</body>
+
 
 
     </body>
 </html>
-
